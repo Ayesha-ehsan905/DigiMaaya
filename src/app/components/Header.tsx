@@ -2,6 +2,10 @@ import { useState } from 'react';
 import digimaayaLogo from '../../assets/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
 import { Menu, X, Wallet } from 'lucide-react';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/app/components/ui/dialog';
+import MetamaskIcon from '../../assets/Metamask.svg';
+import TrustWalletIcon from '../../assets/TrustWallet.svg';
+import GateWalletIcon from '../../assets/GateWallet.png';
+import BitGetWalletIcon from '../../assets/BitGetWallet.png';
 
 interface HeaderProps {
   onLogoClick?: () => void;
@@ -64,7 +68,7 @@ export function Header({ onLogoClick }: HeaderProps) {
           </nav>
 
           <div className="flex items-center gap-3">
-            <button 
+            <button
               onClick={() => setIsLoginDialogOpen(true)}
               className="text-white px-6 py-2 rounded-lg hover:opacity-90 transition-opacity"
               style={{ background: 'linear-gradient(90deg, #E3107A 0%, #FF7F2C 100%)' }}
@@ -115,19 +119,37 @@ export function Header({ onLogoClick }: HeaderProps) {
               <h3 className="text-sm font-maven-pro text-gray-300 mb-3">Login with Wallet</h3>
               <div className="space-y-2">
                 <button className="w-full flex items-center gap-3 p-4 bg-gray-800 border border-gray-700 rounded-lg hover:border-primary transition-colors text-left">
-                  <Wallet className="w-5 h-5" style={{ color: '#E3107A' }} />
+                  <img
+                    src={GateWalletIcon}
+                    alt='Gate Wallet'
+                    className='h-6 w-auto'
+                  />
+
                   <span className="text-white">Gate Wallet</span>
                 </button>
                 <button className="w-full flex items-center gap-3 p-4 bg-gray-800 border border-gray-700 rounded-lg hover:border-primary transition-colors text-left">
-                  <Wallet className="w-5 h-5" style={{ color: '#E3107A' }} />
+                  <img
+                    src={MetamaskIcon}
+                    alt='Metamask'
+                    className='h-5 w-auto'
+                  />
                   <span className="text-white">Metamask</span>
                 </button>
                 <button className="w-full flex items-center gap-3 p-4 bg-gray-800 border border-gray-700 rounded-lg hover:border-primary transition-colors text-left">
-                  <Wallet className="w-5 h-5" style={{ color: '#E3107A' }} />
+                  {/* <Wallet className="w-5 h-5" style={{ color: '#E3107A' }} /> */}
+                  <img
+                    src={BitGetWalletIcon}
+                    alt='BitGet Wallet'
+                    className='h-6 w-auto'
+                  />
                   <span className="text-white">BitGet</span>
                 </button>
                 <button className="w-full flex items-center gap-3 p-4 bg-gray-800 border border-gray-700 rounded-lg hover:border-primary transition-colors text-left">
-                  <Wallet className="w-5 h-5" style={{ color: '#E3107A' }} />
+                  <img
+                    src={TrustWalletIcon}
+                    alt='Trust Wallet'
+                    className='h-6 w-auto'
+                  />
                   <span className="text-white">Trust Wallet</span>
                 </button>
               </div>
