@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import digimaayaLogo from 'figma:asset/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
+import digimaayaLogo from '../../assets/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
 import { Menu, X, Wallet } from 'lucide-react';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/app/components/ui/dialog';
 

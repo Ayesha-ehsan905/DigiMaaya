@@ -1,8 +1,9 @@
-import utsavImage from 'figma:asset/eb83ce26d5c804ad236785813352a215eed5d527.png';
-import heeroImage from 'figma:asset/d2470220d4ba63bc014b74f651dde7296f56f7aa.png';
-import punnooseImage from 'figma:asset/ec4a088973996e851ddd7e055d494e2632d67894.png';
-import garimaImage from 'figma:asset/48eeda1673981f82ebb957a0e1c018d147133294.png';
-import digimayaLogo from 'figma:asset/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
+import utsavImage from '../../assets/eb83ce26d5c804ad236785813352a215eed5d527.png';
+import heeroImage from '../../assets/d2470220d4ba63bc014b74f651dde7296f56f7aa.png';
+import punnooseImage from '../../assets/ec4a088973996e851ddd7e055d494e2632d67894.png';
+import garimaImage from '../../assets/48eeda1673981f82ebb957a0e1c018d147133294.png';
+import digimayaLogo from '../../assets/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
+
 
 export interface Project {
   id: string;

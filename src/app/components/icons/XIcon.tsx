@@ -1,4 +1,4 @@
-import xLogo from 'figma:asset/eee4e48009cad34dbf8876faa3b8b7f7502a8f28.png';
+import xLogo from '../../../assets/eee4e48009cad34dbf8876faa3b8b7f7502a8f28.png';
 
 interface XIconProps {
   className?: string;

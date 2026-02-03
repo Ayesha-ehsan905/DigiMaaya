@@ -1,4 +1,4 @@
-import digimaayaLogo from 'figma:asset/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
+import digimaayaLogo from '../../assets/875cae2f20c002d2f45cd08d3c927dde653b100b.png';
 import { Linkedin, Send, Globe, Bot, ExternalLink, FileText, MapPin } from 'lucide-react';
 import { XIcon } from '@/app/components/icons/XIcon';
 
